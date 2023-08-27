@@ -1,9 +1,7 @@
 const mongoose = require('mongoose')
-const connecttionString =
-  'mongodb+srv://sebin:sebin123@to-do.iz0mdua.mongodb.net/To-Do?retryWrites=true&w=majority'
 
 const connectDB = (url) => {
-  return mongoose.connect(connecttionString, {
+  return mongoose.connect(url, {
     //not requied for v6
     useNewUrlParser: true,
     useCreateIndex: true,
