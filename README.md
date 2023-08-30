@@ -51,3 +51,58 @@ A brief overview of your project and its purpose.
 ```sh
 npm install
 ```
+
+### Configuration
+
+1. Rename .env.example to .env and update the configuration variables.
+
+### Usage
+
+Explain how to use or run your project. Provide examples or code snippets if necessary.
+
+### Deployment
+
+This project is deployed on Render. Here's how to deploy it:
+
+1. Sign up for an account on Render.
+
+2. Create a new web service.
+
+3. Configure the deployment settings, providing necessary environment variables.
+
+4. Link the service to your GitHub repository and choose the branch to deploy.
+
+5. Render will automatically build and deploy your project whenever you push changes to the specified branch.
+
+### Contributing
+
+Contributions are welcome! Here's how you can get started:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature/fix:
+
+```sh
+git checkout -b feature/your-feature
+```
+
+3. Make your changes and commit them:
+
+```sh
+git commit -m "Add your commit message here"
+```
+
+4. Push your changes to your fork:
+
+```sh
+
+git push origin feature/your-feature
+```
+
+5. Open a pull request describing your changes.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+© 2023 Sebin Joe Paul C.M
