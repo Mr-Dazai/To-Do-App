@@ -5,7 +5,7 @@ const connectDB = (url) => {
     //not requied for v6
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: true,
+    useFindAndModify: false,
     useUnifiedTopology: true,
   })
 }
